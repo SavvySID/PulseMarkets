@@ -1,0 +1,21 @@
+ [workspace]
+ members = [
+     "contracts/market",
+ ]
+ resolver = "2"
+ 
+ [workspace.package]
+ edition = "2021"
+ version = "0.1.0"
+ authors = ["PulseMarkets Contributors"]
+ license = "Apache-2.0"
+ 
+ [workspace.dependencies]
+ async-trait = "0.1"
+ linera-sdk = "0.11"
+ serde = { version = "1.0", features = ["derive"] }
+ serde_json = "1.0"
+ thiserror = "1.0"
+
+
+
