@@ -1,0 +1,16 @@
+ ---
+ project:
+   name: pulse-markets
+   chains:
+     market:
+       application: market
+       description: "PulseMarkets prediction market microchain"
+ applications:
+   market:
+     contract:
+       path: contracts/market
+     service:
+       path: contracts/market
+
+
+
